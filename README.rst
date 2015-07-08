@@ -7,7 +7,7 @@ Is-It-In-RHEL
 :Version: 1.0
 :License: GPLv2 or any later version
 
-`is-it-in-rhel` is a commande line utility to find out if a specific package
+`is-it-in-rhel` is a command line utility to find out if a specific package
     is packaged in RHEL or not.
 
 .. contents::
