@@ -14,12 +14,14 @@ Is-It-In-RHEL
 
 Install Prerequisites
 ~~~~~~~~~~~~~~~~~~~~~
+
 ::
   yum install python-requests
 
 
 Get and Run the Source
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
 ::
   git clone https://pagure.io/is-it-in-rhel.git
   cd is-it-in-rhel
@@ -29,6 +31,8 @@ Arguments
 ~~~~~~~~~
 
 Use the ``--release`` option to restrict searching to a specific RHEL release:
+
+::
 
     $ python is-it-in-rhel.py kernel --release 7
     kernel is in RHEL 7;   version: 3.10.0;   archs: noarch, ppc64, x86_64
