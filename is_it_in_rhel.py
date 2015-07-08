@@ -158,8 +158,8 @@ def main():
     # Parse the commandline
     try:
         arg = parser.parse_args()
-    except argparse.ArgumentTypeError, err:
-        print "\nError: {0}".format(err)
+    except argparse.ArgumentTypeError as err:
+        print("\nError: {0}".format(err))
         return 2
 
     return_code = 0
