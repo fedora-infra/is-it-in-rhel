@@ -1,0 +1,11 @@
+*~
+*.pyc
+*.pyo
+*.swp
+*.cfg
+dist
+*.egg-info
+build
+_build/
+pylint.out
+MANIFEST
