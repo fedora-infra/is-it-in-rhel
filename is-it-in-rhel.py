@@ -17,7 +17,6 @@
 
 import argparse
 import requests
-import itertools
 
 __version__ = '1.0'
 
