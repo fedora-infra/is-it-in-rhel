@@ -10,22 +10,26 @@ Is-It-In-RHEL
 `is-it-in-rhel` is a command line utility to find out if a specific package
     is packaged in RHEL or not.
 
+
 .. contents::
 
 Install Prerequisites
 ~~~~~~~~~~~~~~~~~~~~~
 
 ::
-  yum install python-requests
+
+    yum install python-requests
 
 
 Get and Run the Source
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
-  git clone https://pagure.io/is-it-in-rhel.git
-  cd is-it-in-rhel
-  python is-it-in-rhel.py
+
+    git clone https://pagure.io/is-it-in-rhel.git
+    cd is-it-in-rhel
+    python is-it-in-rhel.py
+
 
 Arguments
 ~~~~~~~~~
